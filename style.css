@@ -1,0 +1,89 @@
+/* Google Font link */
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;600&family=Open+Sans:wght@400;800&display=swap');
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'EB Garamond', serif;
+}
+
+p,
+button,
+a {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.primary-bg {
+    background-color: #B68C5A !important;
+}
+
+.heading-text {
+    color: #414040 !important;
+}
+
+.primary-text {
+    color: #707070 !important;
+}
+
+.secondary-text {
+    color: #E7E7E7 !important;
+}
+
+/* banner section */
+.banner {
+    background-image: linear-gradient(0deg, #111111 0%, rgba(17, 17, 17, 0) 100%), url(images/banner.png);
+    width: 100%;
+    background-size: cover;
+    margin: 0 auto;
+}
+
+/* card */
+.card:hover {
+    background: linear-gradient(180deg, #F3F3F3 0%, rgba(243, 243, 243, 0) 100%);
+}
+
+/* clients reviews */
+
+.banner-img1 {
+    background-image: linear-gradient(-180deg, #111111 0%, rgba(17, 17, 17, 0) 100%), url(../images/slider-1.jpg);
+    height: auto;
+    background-position: center center;
+    background-size: cover;
+}
+
+.banner-img2 {
+    background-image: linear-gradient(-180deg, #111111 0%, rgba(17, 17, 17, 0) 100%), url(../images/slider-2.jpg);
+    height: auto;
+    background-position: center center;
+    background-size: cover;
+}
+
+.banner-img3 {
+    background-image: linear-gradient(180deg, #111111 0%, rgba(17, 17, 17, 0) 100%), url(../images/slider-3.jpg);
+    height: auto;
+    background-position: center center;
+    background-size: cover;
+}
+
+
+.accordion-bg {
+    background: #F3F3F3 !important;
+}
+
+.accordion-button::after {
+    background-image: url(../images/plus-svgrepo-com.svg);
+    transform: scale(.7) !important;
+}
+
+.accordion-button:not(.collapsed)::after {
+    background-image: url(../images/minus-svgrepo-com.svg);
+}
+
+.accordion-button:not(.collapsed) {
+    color: var(--bs-accordion-active-color);
+    background-color: #F3F3F3;
+    box-shadow: none;
+}
